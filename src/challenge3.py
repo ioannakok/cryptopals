@@ -15,9 +15,9 @@ def find_key(word):
         data[score] = (key, message)
 
     maximum_score = max(list(data.keys()))
+    result = {"Key": chr(data[maximum_score][0]), "Message": str(data[maximum_score][1])}
 
-    print("Key: " + chr(data[maximum_score][0]))
-    print("Message: " + str(data[maximum_score][1]))
+    return result
 
 
 def xor_word_against_char(word, key):
@@ -38,4 +38,4 @@ def get_char_score(char):
     return char_frequency.get(chr(char), 0)
 
 
-find_key(string)
+print(find_key(string))
