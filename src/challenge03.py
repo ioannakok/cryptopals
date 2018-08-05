@@ -1,4 +1,4 @@
-from challenge1 import convert_hex_to_raw_bytes
+from challenge01 import convert_hex_to_raw_bytes
 
 string = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
 char_frequency = {'a': 8.2, 'b': 1.5, 'c': 2.8, 'd': 4.3, 'e': 12.7, 'f': 2.2, 'g': 2.0, 'h': 6.1, 'i': 7.0,

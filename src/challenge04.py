@@ -1,4 +1,4 @@
-from challenge3 import find_key
+from challenge03 import find_key
 
 
 def find_encrypted_message():
